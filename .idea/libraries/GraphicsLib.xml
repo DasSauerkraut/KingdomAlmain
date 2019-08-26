@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="GraphicsLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Mod Tools/GraphicsLib/jars/Graphics.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../Mod Tools/GraphicsLib/javadoc" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

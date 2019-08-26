@@ -1,0 +1,53 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "gauss_cannon_fire",
+  "glowColor": [
+    143,
+    255,
+    145,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointSprite": "",
+  "id": "almain_calyx_cannon",
+  "muzzleFlashSpec": {
+    "length": 200,
+    "particleColor": [
+      143,
+      255,
+      145,
+      255
+    ],
+    "particleCount": 50,
+    "particleDuration": 0.5,
+    "particleSizeMin": 20,
+    "particleSizeRange": 50,
+    "spread": 20
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "gauss_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretSprite": "",
+  "turretUnderSprite": "graphics/almain/weapons/almain_calyx_cannon.png",
+  "type": "BALLISTIC"
+}

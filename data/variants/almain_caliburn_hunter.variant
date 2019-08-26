@@ -1,0 +1,53 @@
+{
+  "displayName": "Hunter",
+  "fluxCapacitors": 20,
+  "fluxVents": 17,
+  "goalVariant": true,
+  "hullId": "almain_caliburn",
+  "hullMods": [
+    "auxiliarythrusters",
+    "reinforcedhull",
+    "stabilizedshieldemitter"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "almain_caliburn_hunter",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heatseeker",
+        "WS0010": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "harpoon_single",
+        "WS0009": "harpoon_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

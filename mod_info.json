@@ -1,0 +1,11 @@
+{
+    "id": "almain",
+    "name": "Kingdom of Almain",
+    "author": "DasSauerkraut",
+    "utility": "false",
+    "version": "0.0.1",
+    "description": "Single Large guns, witha lot of missiles",
+    "gameVersion": "0.9.1a",
+    "jars":["jars/kingdomAlmain.jar"],
+    "modPlugin":"data.scripts.AlmainModPlugin"
+}

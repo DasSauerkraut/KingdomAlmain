@@ -1,0 +1,231 @@
+{
+  "bounds": [
+    103,
+    -22.5,
+    -21,
+    -42,
+    -49.5,
+    -42.5,
+    -94.5,
+    -39.5,
+    -94.5,
+    39.5,
+    -49.5,
+    42.5,
+    -21,
+    42,
+    103,
+    22.5
+  ],
+  "builtInWeapons": {
+    "WS0006": "almain_calyx_cannon"
+  },
+  "center": [
+    42,
+    95.5
+  ],
+  "collisionRadius": 106.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 25,
+      "location": [
+        -94.5,
+        33
+      ],
+      "style": "HIGH_TECH",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 25,
+      "location": [
+        -94.5,
+        -33
+      ],
+      "style": "HIGH_TECH",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 19.5,
+      "location": [
+        -94.5,
+        21.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 19.5,
+      "location": [
+        -94.5,
+        -21.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 47,
+      "location": [
+        -93,
+        10
+      ],
+      "style": "HIGH_TECH",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 47,
+      "location": [
+        -93,
+        -10
+      ],
+      "style": "HIGH_TECH",
+      "width": 11
+    }
+  ],
+  "height": 221,
+  "hullId": "almain_caliburn",
+  "hullName": "Caliburn",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    2,
+    -0
+  ],
+  "shieldRadius": 132,
+  "spriteName": "graphics/almain/ships/almain_caliburn.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -41,
+      "arc": 262,
+      "id": "WS0001",
+      "locations": [
+        77.5,
+        -15
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 41,
+      "arc": 262,
+      "id": "WS0002",
+      "locations": [
+        77.5,
+        15
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -88.5,
+      "arc": 184,
+      "id": "WS0003",
+      "locations": [
+        16.5,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 88.5,
+      "arc": 184,
+      "id": "WS0004",
+      "locations": [
+        16.5,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -179,
+      "arc": 307,
+      "id": "WS0005",
+      "locations": [
+        -47.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 25,
+      "id": "WS0006",
+      "locations": [
+        35,
+        1
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 16,
+      "id": "WS0008",
+      "locations": [
+        -38.5,
+        -35
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 16,
+      "id": "WS0009",
+      "locations": [
+        -38.5,
+        35
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 16,
+      "id": "WS0007",
+      "locations": [
+        -28.5,
+        -35
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 16,
+      "id": "WS0010",
+      "locations": [
+        -28.5,
+        35
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 84
+}
