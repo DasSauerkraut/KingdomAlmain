@@ -1,0 +1,46 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "almain_onager_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    -45,
+    0
+  ],
+  "hardpointSprite": "graphics/almain/weapons/almain_onager_cannon.png",
+  "id": "almain_onager_cannon",
+  "muzzleFlashSpec": {
+    "length": 50,
+    "particleColor": [
+      255,
+      40,
+      40,
+      255
+    ],
+    "particleCount": 25,
+    "particleDuration": 2,
+    "particleSizeMin": 20,
+    "particleSizeRange": 50,
+    "spread": 10
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "gauss_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretOffsets": [
+    -92,
+    -0.5
+  ],
+  "turretSprite": "graphics/almain/weapons/almain_onager_cannon.png",
+  "type": "ENERGY"
+}

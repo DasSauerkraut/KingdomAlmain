@@ -69,6 +69,14 @@
     -47,
     -7
   ],
+  "builtInMods": [
+    "delicate",
+    "dedicated_targeting_core",
+    "increased_maintenance"
+  ],
+  "builtInWeapons": {
+    "WS0015": "almain_onager_cannon"
+  },
   "center": [
     157.5,
     229.5
@@ -83,7 +91,7 @@
         -229,
         11
       ],
-      "style": "COBRA_BOMBER",
+      "style": "MIDLINE",
       "width": 28
     },
     {
@@ -94,7 +102,7 @@
         -229,
         -11
       ],
-      "style": "COBRA_BOMBER",
+      "style": "MIDLINE",
       "width": 28
     },
     {
@@ -105,7 +113,7 @@
         -215.5,
         29.5
       ],
-      "style": "COBRA_BOMBER",
+      "style": "HIGH_TECH",
       "width": 18
     },
     {
@@ -116,7 +124,7 @@
         -215.5,
         -29.5
       ],
-      "style": "COBRA_BOMBER",
+      "style": "HIGH_TECH",
       "width": 18
     },
     {
@@ -127,7 +135,7 @@
         -214,
         47.5
       ],
-      "style": "COBRA_BOMBER",
+      "style": "HIGH_TECH",
       "width": 17
     },
     {
@@ -138,7 +146,7 @@
         -214,
         -47.5
       ],
-      "style": "COBRA_BOMBER",
+      "style": "HIGH_TECH",
       "width": 17
     },
     {
@@ -149,7 +157,7 @@
         -200.5,
         63
       ],
-      "style": "COBRA_BOMBER",
+      "style": "HIGH_TECH",
       "width": 17
     },
     {
@@ -160,29 +168,29 @@
         -200.5,
         -63
       ],
-      "style": "COBRA_BOMBER",
+      "style": "HIGH_TECH",
       "width": 17
     },
     {
-      "angle": 170,
+      "angle": -27,
       "contrailSize": 6.274286,
       "length": 22.139521,
       "location": [
         -197.5,
         73
       ],
-      "style": "COBRA_BOMBER",
+      "style": "MIDLINE",
       "width": 6.274286
     },
     {
-      "angle": -170,
+      "angle": 27,
       "contrailSize": 6.274286,
       "length": 22.139521,
       "location": [
         -197.5,
         -73
       ],
-      "style": "COBRA_BOMBER",
+      "style": "MIDLINE",
       "width": 6.274286
     }
   ],
@@ -294,7 +302,7 @@
       "type": "ENERGY"
     },
     {
-      "angle": -90,
+      "angle": -90.5,
       "arc": 91,
       "id": "WS0007",
       "locations": [
@@ -306,7 +314,7 @@
       "type": "ENERGY"
     },
     {
-      "angle": 90,
+      "angle": 90.5,
       "arc": 91,
       "id": "WS0008",
       "locations": [
@@ -394,12 +402,60 @@
       "arc": 2,
       "id": "WS0015",
       "locations": [
-        -53.5,
-        -0
+        -10,
+        -0.5
       ],
       "mount": "HARDPOINT",
       "size": "LARGE",
       "type": "BUILT_IN"
+    },
+    {
+      "angle": -90.5,
+      "arc": 12,
+      "id": "WS0016",
+      "locations": [
+        -87.5,
+        -93
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90.5,
+      "arc": 12,
+      "id": "WS0017",
+      "locations": [
+        -87.5,
+        93
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 12,
+      "id": "WS0018",
+      "locations": [
+        56.5,
+        -71.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 12,
+      "id": "WS0019",
+      "locations": [
+        56.5,
+        71.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
     }
   ],
   "width": 316

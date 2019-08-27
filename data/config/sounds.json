@@ -1,0 +1,16 @@
+{
+	"almain_onager_fire":{
+        "sounds":[
+           	{"file":"sounds/almain/weapons/almain_onager_fire.ogg","pitch":1.05,"volume":1},
+			{"file":"sounds/almain/weapons/almain_onager_fire.ogg","pitch":1,"volume":1},
+			{"file":"sounds/almain/weapons/almain_onager_fire.ogg","pitch":0.95,"volume":1}
+        ]
+	},
+	"almain_onager_charge":{
+        "sounds":[
+           	{"file":"sounds/almain/weapons/almain_onager_charge.ogg","pitch":1.05,"volume":1},
+			{"file":"sounds/almain/weapons/almain_onager_charge.ogg","pitch":1,"volume":1},
+			{"file":"sounds/almain/weapons/almain_onager_charge.ogg","pitch":0.95,"volume":1}
+        ]
+    }
+}
