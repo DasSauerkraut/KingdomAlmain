@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="kingdomAlmain">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/jars/kingdomAlmain.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

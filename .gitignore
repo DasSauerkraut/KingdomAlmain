@@ -4,6 +4,7 @@ sf-ship-ed 3.0.0-alpha-5.exe
 sf-ship-ed-settings.json
 /out/*
 /audacity/*
-/.idea/*
+/.idea/
 /.idea/misc.xml
 /.idea/workspace.xml
+/dependancies/

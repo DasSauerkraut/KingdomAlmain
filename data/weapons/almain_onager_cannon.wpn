@@ -2,7 +2,8 @@
   "animationType": "MUZZLE_FLASH",
   "autocharge": true,
   "barrelMode": "ALTERNATING",
-  "fireSoundTwo": "almain_onager_fire",
+  "everyFrameEffect": "data.scripts.weapons.AlmainOnagerCannon",
+  #"fireSoundTwo": "almain_onager_fire",
   "hardpointAngleOffsets": [
     0
   ],
