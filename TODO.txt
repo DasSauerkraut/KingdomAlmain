@@ -1,0 +1,30 @@
+3 Frigates,
+    Hasta(Spinal),
+    Clypeus(dispersed),
+    Videns(Sensor Ship)
+4 Destroyers,
+    Iaculum(Spinal),
+    Sagitta(spinal),
+    Armis(dispersed),
+    Partum(Factory)
+4 Cruisers,
+    Secare(spinal),
+    Morsus(spinal),
+    Dicere(dispersed),
+    Fidelitatis(carrier)
+2 Capitals,
+    Onager(spinal),
+    Bellator(dispersed)
+
+4 Spinal Weapons
+    Destroyer-Tier
+    Cruiser-Tier - Pierces Ships, 1/4 damage on next target
+    Onager-Tier - Pierces ships, 1/2 damage on next target | Pierces Shields 1/8 Damage to hull | AOE on Hull impact
+    GAU30 Equivelant - Decent Damage per shot, high rate of fire, bursts
+
+3 Missile Weapons
+    Anti-Missile Missile
+    Saturation Missile - Low damage, erratic flight path, a lot of them
+
+
+
