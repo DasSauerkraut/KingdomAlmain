@@ -6,7 +6,7 @@ import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.*;
 
-public class AlmainOnagerCannon {
+public class AlmainOnagerCannon implements EveryFrameWeaponEffectPlugin {
 
     private static final Color MUZZLE_FLASH_COLOR_BRIGHT = new Color(255, 165, 158, 255);
     private static final Color MUZZLE_FLASH_COLOR = new Color(255, 0, 0, 255);
@@ -16,13 +16,13 @@ public class AlmainOnagerCannon {
 
     private boolean hasFired = false;
 
-    public void advance(float amount, CombatEngineAPI engine, DamagingProjectileAPI shell) {
+    @Override
+    public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
         // Don't bother with any unecessary checks
-        if (shell.getWeapon().getShip() == null) {
+        if (weapon.getShip() == null) {
             return;
         }
 
-        WeaponAPI weapon = shell.getWeapon();
         ShipAPI ship = weapon.getShip();
 
         //Plays charge sound and spawn some charge-y particles
