@@ -13,8 +13,8 @@
     Dicere(dispersed),
     Fidelitatis(carrier)
 2 Capitals,
-    Onager(spinal),
-    Bellator(dispersed)
+    Onager(spinal), F switches cannon from piercing to high explosive
+    Bellator(dispersed) F vents soft flux while shield is up
 
 4 Spinal Weapons
     Destroyer-Tier
