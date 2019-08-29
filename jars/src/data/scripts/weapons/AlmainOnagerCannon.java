@@ -2,6 +2,7 @@ package data.scripts.weapons;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
+import data.scripts.util.MagicLensFlare;
 import org.lwjgl.util.vector.Vector2f;
 
 import java.awt.*;
@@ -27,16 +28,18 @@ public class AlmainOnagerCannon implements EveryFrameWeaponEffectPlugin {
 
         //Plays charge sound and spawn some charge-y particles
         if (!hasFired && !engine.isPaused() && weapon.getChargeLevel() > 0f) {
-            Global.getSoundPlayer().playLoop(CHARGE_SOUND_ID, ship, 1f, (0.5f + (weapon.getChargeLevel() * 0.5f)), weapon.getLocation(), new Vector2f(0f, 0f));
+            hasFired = true;
+            Global.getSoundPlayer().playSound(CHARGE_SOUND_ID, 1f, 1f, weapon.getLocation(), new Vector2f(0f, 0f));
+            MagicLensFlare.createSmoothFlare(engine, ship, weapon.getLocation(), (600f + (weapon.getChargeLevel() * 5f)), 400, 0, MUZZLE_FLASH_COLOR, MUZZLE_FLASH_COLOR_BRIGHT);
         }
 
         //Actually fire the weapon!
-        if (weapon.getChargeLevel() >= 1f && !hasFired) {
-            hasFired = true;
+        if (weapon.getChargeLevel() >= 1f && hasFired){
             //For spawning the sounds at the end, middle and start of the beam
             Global.getSoundPlayer().playSound(FIRE_SOUND_ID, 1f, 1.25f, weapon.getLocation(), new Vector2f(0f, 0f));
 
             //Muzzle flash
+            MagicLensFlare.createSharpFlare(engine, ship, weapon.getLocation(), 40f, 400f, 0f, MUZZLE_FLASH_COLOR, MUZZLE_FLASH_COLOR_BRIGHT);
             engine.addHitParticle(weapon.getLocation(), ship.getVelocity(), 325f, 0.22f, 1.9f, MUZZLE_FLASH_COLOR_BRIGHT);
             engine.addHitParticle(weapon.getLocation(), ship.getVelocity(), 850f, 0.13f, 2f, MUZZLE_FLASH_COLOR);
         }
